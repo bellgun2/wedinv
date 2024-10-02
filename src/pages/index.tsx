@@ -10,7 +10,6 @@ const Title = dynamic(() => import("@/components/Title"), { ssr: false });
 const Gretting = dynamic(() => import("@/components/Gretting"), { ssr: false });
 const Gallery = dynamic(() => import("@/components/Gallery"), { ssr: false });
 const Location = dynamic(() => import("@/components/Location"), { ssr: false });
-);
 const Share = dynamic(() => import("@/components/Share"), { ssr: false });
 
 const notoSansKR = Noto_Sans_KR({
