@@ -35,7 +35,7 @@ const Footer = styled("footer", {
 
 export default function Home() {
   const [date, setDate]=useState(JsonData.date);
-  const [location,setLocation]=useState(JsonDate.location);
+  const [location,setLocation]=useState(JsonData.location);
   
   return (
     <>
