@@ -42,14 +42,14 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta content="송종건❤이옥은 결혼식에 초대합니다" name="Title" />
         <meta
-          content="2024년 10월 13일 일요일 오전 11시 30분"
+          content="2024년 10월 13일 일요일 오전 11시 30분 롯데호텔서울 무궁화"
           name="Description"
         />
         <meta content="2024년 10월 13일 일요일 오전 11시 30분" name="Keyword" />
         <meta property="og:title" content="송종건❤이옥은 결혼식에 초대합니다" />
         <meta
           property="og:description"
-          content="2024년 10월 13일 일요일 오전 11시 30분"
+          content="2024년 10월 13일 일요일 오전 11시 30분 롯데호텔서울 무궁화"
         />
         <meta name="theme-color" content="#BCAAA4" />
         <title>송종건❤이옥은 결혼식에 초대합니다</title>
