@@ -66,7 +66,6 @@ export default function Home() {
         <Location />
         <CongratulatoryMoney data={JsonData} />
         <Share data={JsonData} />
-        <Footer>Copyright © 2021 KyuHyuk Lee\nCustomized by Jongkeon Song</Footer>
       </main>
     </>
   );
