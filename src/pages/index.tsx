@@ -34,6 +34,9 @@ const Footer = styled("footer", {
 });
 
 export default function Home() {
+  const [date, setDate]=useState(JsonData.date);
+  const [location,setLocation]=useState(JsonDate.location);
+  
   return (
     <>
       <Head>
@@ -42,10 +45,10 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta content="송종건❤이옥은 결혼식에 초대합니다" name="Title" />
         <meta
-          content="2024년 10월 13일 일요일 오전 11시 30분 롯데호텔서울 무궁화"
+          content={date}
           name="Description"
         />
-        <meta content="2024년 10월 13일 일요일 오전 11시 30분" name="Keyword" />
+        <meta content={location} name="Keyword" />
         <meta property="og:title" content="송종건❤이옥은 결혼식에 초대합니다" />
         <meta
           property="og:description"
