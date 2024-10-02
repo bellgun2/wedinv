@@ -64,8 +64,6 @@ export default function Home() {
         <Gretting data={JsonData} />
         <Gallery />
         <Location />
-        <CongratulatoryMoney data={JsonData} />
-        <Share data={JsonData} />
       </main>
     </>
   );
